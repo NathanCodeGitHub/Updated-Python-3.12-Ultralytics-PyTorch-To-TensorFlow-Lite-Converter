@@ -39,8 +39,8 @@ import importlib as imp
 Fix 2: Find module fix.
 ```python
 try :
-     imp. util. find _ spec ( " numpy" )
-     numpy exists = True
+    imp.util.find_spec ("numpy")
+    numpy_exists = True
 except ImportError:
 ```
 
